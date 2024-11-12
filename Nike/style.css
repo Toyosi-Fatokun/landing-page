@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: #fff;
+}
+
+.container-wrap {
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    margin: 10%;
+}
+
+.jordan-container {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    margin: 0;
+    margin-right: 15%;
+}
+
+.jordan-writeup {
+    color: #333;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    transform-origin: bottom left;
+    text-align: center;
+    justify-content: space-between;
+    height: 30%;
+    padding-right: 20%;
+    margin-top: -90%;
+    word-spacing: 12px;
+}
+
+nav ul {
+    background-color: #333;
+    list-style: none;
+    margin: 0;
+    margin-left: -3%;
+    width: 242.5%;
+    padding: 5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+nav li {
+    margin-right: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.main-container {
+    background-color: #333;
+    color: #ddd;
+    display: block;
+    margin-top: 6%;
+    justify-content: left;
+    margin-left: -39%;
+    padding-top: 10%;
+    padding-left: 2%;
+}
+
+.main-heading {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 0;
+}
+
+.shoe-type {
+    margin-top: -6%;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.shoe-price {
+    margin-top: -2%;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.shoe-writeup {
+    margin-top: -2%;
+    color: lightgray;
+    font-size: 8.5px;
+    width: 70%;
+}
+
+.box {
+    background-color: #ddd;
+    color: #333;
+    font-weight: bold;
+    font-size: 9px;
+    width: 18%;
+    padding: 1%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.right-container {
+    background-color: #333;
+    margin-top: 12%;
+    margin-right: 10%;
+}
